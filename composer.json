@@ -1,0 +1,13 @@
+{
+  "name": "todolist/php-mvc",
+  "description": "ToDoListPoles",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "Config\\": "config/"
+    }
+  },
+  "require": {
+    "mongodb/mongodb": "^1.20"
+  }
+}
